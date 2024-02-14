@@ -1,5 +1,16 @@
 {
     "extends": [
-        "@rocketseat/eslint-config/node"
+        "@rocketseat/eslint-config/node",
+        "plugin:prettier/recommended"
+    ],
+    "env": {
+        "es6": true,
+        "node": true
+    },
+    "rules": {
+        "prettier/prettier": "error"
+    },
+    "plugins": [
+        "prettier"
     ]
 }
