@@ -9,7 +9,8 @@
     },
     "rules": {
         "prettier/prettier": "error",
-        "camelcase": "off"
+        "camelcase": "off",
+        "no-useless-constructor": "off"
     },
     "plugins": [
         "prettier"
