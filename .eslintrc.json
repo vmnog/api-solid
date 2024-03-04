@@ -8,7 +8,8 @@
         "node": true
     },
     "rules": {
-        "prettier/prettier": "error"
+        "prettier/prettier": "error",
+        "camelcase": "off"
     },
     "plugins": [
         "prettier"
