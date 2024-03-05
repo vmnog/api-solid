@@ -3,7 +3,7 @@
 ## RFs
 
 - [x] Deve ser possivel se cadastrar;
-- [ ] Deve ser possivel se autenticar;
+- [x] Deve ser possivel se autenticar;
 - [ ] Deve ser possivel obter o perfil de um usuario logado;
 - [ ] Deve ser possivel obter o numero de check-ins realizados pelo usuario logado;
 - [ ] Deve ser possivel o usuario obter seu historico de check-ins;
@@ -25,6 +25,6 @@
 ## RNFs
 
 - [x] A senha do usuario precisa estar criptografada;
-- [ ] Os dados da aplicacao precisam estar persistido em um banco PostgreSQL;
+- [x] Os dados da aplicacao precisam estar persistido em um banco PostgreSQL;
 - [ ] Todas as listas de daods precisam estar paginadas por 20 items por pagina;
 - [ ] O usuario deve ser identificado por um JWT (Json Web Token);
