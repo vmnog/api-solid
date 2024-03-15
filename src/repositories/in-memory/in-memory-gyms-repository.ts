@@ -11,16 +11,16 @@ export class InMemoryGymsRepository implements GymsRepository {
       const distanceInKilometers = getDistanceInKilometersBetweenCoordinates(
         {
           latitude: params.latitude,
-          longitude: params.longitude
+          longitude: params.longitude,
         },
         {
           latitude: item.latitude.toNumber(),
           longitude: item.longitude.toNumber(),
-        }
+        },
       )
       const MAX_DISTANCE_IN_KILOMETERS = 10
 
-      return distanceInKilometers < MAX_DISTANCE_IN_KILOMETERS   
+      return distanceInKilometers < MAX_DISTANCE_IN_KILOMETERS
     })
   }
 

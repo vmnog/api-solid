@@ -7,15 +7,13 @@ export class InMemoryCheckInsRepository implements CheckInsRepository {
   public items: CheckIn[] = []
 
   async countByUserId(userId: string): Promise<number> {
-    return this.items
-      .filter((item) => item.user_id === userId)
-      .length
+    return this.items.filter((item) => item.user_id === userId).length
   }
 
   async findById(id: string): Promise<CheckIn | null> {
     const checkIn = this.items.find((item) => item.id === id)
 
-    if(!checkIn) {
+    if (!checkIn) {
       return null
     }
 
