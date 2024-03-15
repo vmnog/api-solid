@@ -10,7 +10,7 @@
 - [x] Deve ser possivel o usuario buscar academias proximas (ate 10km);
 - [x] Deve ser possivel o usuario buscar academias pelo nome;
 - [x] Deve ser possivel o usuario realizar check-in em uma academia;
-- [ ] Deve ser possivel validar o check-in de um usuario;
+- [x] Deve ser possivel validar o check-in de um usuario;
 - [x] Deve ser possivel cadastrar uma academia;
 
 ## RNs
